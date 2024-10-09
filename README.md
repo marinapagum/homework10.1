@@ -7,7 +7,7 @@
 
  Клонируйте репозиторий:
 ```
-git clone https://github.com/username/myblog.git
+git clone https://github.com/marinapagum/homework10.1/pull/1
 ```
 
 
