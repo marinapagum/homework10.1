@@ -29,7 +29,7 @@ git clone https://github.com/marinapagum/homework10.1/pull/1
 
  Клонируйте репозиторий:
 ```
-git clone https://github.com/marinapagum/homework10.1/pull/1
+git clone https://github.com/marinapagum/homework10.1/compare/develop...feature/homework_10_2
 ```
 
 
@@ -39,7 +39,7 @@ git clone https://github.com/marinapagum/homework10.1/pull/1
 2. Функции можно передавать дату и время банковской операции и она будет возвращать корректную дату совершения выбранной операции.
 3. Функции можно передать список всех банковских операция, она будет возвращать список необходмых операций.
 
-## Тестовая часть:
+## Тестирование:
 
 В файле tests.py находятся функции и все необходимые фикстуры для проверки функций проекта.
 
