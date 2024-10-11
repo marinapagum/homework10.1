@@ -15,4 +15,5 @@ def mask_account_card(number: str) -> str:
 def get_date(old_data: str) -> str:
     """Функция, которая меняет формат даты"""
     data_slice = old_data[0:10].split("-")
-    return ".".join(data_slice[::-1])
+    data_slice_join = ".".join(data_slice[::-1])
+    return data_slice_join
