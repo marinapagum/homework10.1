@@ -7,7 +7,7 @@
 
  Клонируйте репозиторий:
 ```
-git clone https://github.com/marinapagum/homework10.1/compare/develop...feature/homework_10_2
+git clone https://github.com/marinapagum/homework10.1/pull/2
 ```
 
 
@@ -29,7 +29,7 @@ git clone https://github.com/marinapagum/homework10.1/compare/develop...feature/
 
  Клонируйте репозиторий:
 ```
-git clone https://github.com/marinapagum/homework10.1/compare/develop...feature/homework_10_2
+git clone https://github.com/marinapagum/homework10.1/pull/2
 ```
 
 
