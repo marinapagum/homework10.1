@@ -14,8 +14,7 @@ def transaction_descriptions(transactions):
 
 
 def card_number_generator(start, stop):
-    """Генератор номеров банковских карт в формате XXXX XXXX XXXX XXXX
-    Диапазоны передаются как параметры генератора."""
+    """Генератор номеров банковских карт."""
     for num in range(start, stop + 1):
         number = "0" * (16 - len(str(num))) + str(num)
         string_to_return = ""
