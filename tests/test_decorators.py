@@ -1,6 +1,5 @@
 import os
 
-
 import pytest
 
 from src.decorators import log
@@ -22,7 +21,7 @@ def test_log_file():
 
 
 def test_log_console(capsys):
-    @log(filename="mylog.txt")
+    @log(filename="")
     def example_function(x, y):
         return x * y
 
@@ -49,7 +48,7 @@ def test_log_file_raise():
 
 
 def test_log_console_raise(capsys):
-    @log(filename="mylog.txt")
+    @log(filename="")
     def example_function(x, y):
         raise ValueError("Что-то пошло не так")
 
